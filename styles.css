@@ -1,4 +1,3 @@
-
 .holder {
     display: flex;
     flex-wrap: wrap;
@@ -6,8 +5,8 @@
     gap: 10px; /* Adjust this value as needed */
 }
 
-
+/* Additional styles for individual items can be added here */
 .holder .item {
-    flex: 1 1 30%; 
-    min-width: 200px;
+    flex: 1 1 30%; /* Example to make each item take up 30% of the row's width */
+    min-width: 200px; /* Ensures a minimum size for each item */
 }
